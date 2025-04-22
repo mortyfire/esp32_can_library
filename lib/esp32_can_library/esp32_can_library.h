@@ -2,11 +2,6 @@
 ESP32 CAN Bus Library mit TJA1050 – kompakt und konfigurierbar
 =================================================================
 
-Diese Version ist speichereffizienter und überlässt Dir die Fehlerbehandlung:
-Konfigurierbare Retry-Anzahl (ACK/NACK)
-Benutzerdefinierbarer Error-Callback bei fehlgeschlagenen Sendungen
-ACK-Handling optional (RetryLimit=0)
-
 Identifier-Schema (11 Bit):
 [10..9] 2 Bit Priorität (00: niedrig ... 11: hoch)
 [8..5] 4 Bit Adresse (0000–1110: Node-ID, 1111: Broadcast)
